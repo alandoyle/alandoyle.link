@@ -1,0 +1,77 @@
+# baseURL = "https://alandoyle.link/"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Alan Doyle"
+copyright = "Thanks for stopping by!"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  attribution = false
+  description = "The home of Alan Doyle"
+
+[params.author]
+  name = "Alan Doyle"
+  headline = "Father | Software Developer | Amigan | Irishman"
+  image = "img/author.jpg"  # path relative to static directory
+
+  links = [
+    { blog = { href = "https://alandoyle.com/", text = "Blog" } },
+    { github = "https://github.com/alandoyle" },
+    { docker = { href = "https://hub.docker.com/u/alandoyle", text = "DockerHub" } },
+    { x = { href = "https://x.com/_AlanDoyle_", text = "Twitter" } },
+    { mastodon = "https://mastodon.social/@alandoyle" },
+    { facebook = "https://facebook.com/alan.d.doyle" },
+    { instagram = "https://instagram.com/alan.d.doyle" },
+    { steam = "https://steamcommunity.com/id/alandoyle" },
+    { email = { href = "mailto:me@alandoyle.com", text = "Contact Me" } },
+
+    # { email = "mailto:hello@your_domain.com" },
+    # { link = "https://link-to-some-website.com/" },
+    # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+    # { apple = "https://www.apple.com" },
+    # { codepen = "https://codepen.io/username" },
+    # { dev = "https://dev.to/username" },
+    # { discord = "https://discord.gg/invitecode" },
+    # { dribbble = "https://dribbble.com/username" },
+    # { facebook = "https://facebook.com/username" },
+    # { flickr = "https://www.flickr.com/photos/username/" },
+    # { foursquare = "https://foursquare.com/username" },
+    # { github = "https://github.com/username" },
+    # { gitlab = "https://gitlab.com/username" },
+    # { google = "https://www.google.com/" },
+    # { instagram = "https://instagram.com/username" },
+    # { keybase = "https://keybase.io/username" },
+    # { kickstarter = "https://www.kickstarter.com/profile/username" },
+    # { lastfm = "https://last.fm/user/username" },
+    # { linkedin = "https://linkedin.com/in/username" },
+    # { mastodon = "https://mastodon.instance/@username" },
+    # { medium = "https://medium.com/username" },
+    # { microsoft = "https://www.microsoft.com/" },
+    # { patreon = "https://www.patreon.com/username" },
+    # { pinterest = "https://pinterest.com/username" },
+    # { reddit = "https://reddit.com/user/username" },
+    # { slack = "https://workspace.url/team/userid" },
+    # { snapchat = "https://snapchat.com/add/username" },
+    # { soundcloud = "https://soundcloud.com/username" },
+    # { spotify = "https://spotify.com/user/username" },
+    # { stack-exchange = "https://stackexchange.com/users/userid/username" },
+    # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+    # { steam = "https://steamcommunity.com/profiles/userid" },
+    # { telegram = "https://t.me/username" },
+    # { threads = "https://threads.com/username" },
+    # { tiktok = "https://tiktok.com/@username" },
+    # { tumblr = "https://username.tumblr.com" },
+    # { twitch = "https://twitch.tv/username" },
+    # { twitter = "https://twitter.com/username" },
+    # { whatsapp = "https://wa.me/phone-number" },
+    # { x = "https://x.com/username" },
+    # { youtube = "https://youtube.com/username" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
