@@ -1,0 +1,6 @@
+https://alandoyle.link/*
+  X-Robots-Tag: noindex
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-XSS-Protection: 1
