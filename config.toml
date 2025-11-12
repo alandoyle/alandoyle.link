@@ -26,7 +26,7 @@ disableKinds = ["taxonomy", "term"]
     { facebook = "https://facebook.com/alan.d.doyle" },
     { instagram = "https://instagram.com/alan.d.doyle" },
     { steam = "https://steamcommunity.com/id/alandoyle" },
-    { email = { href = "mailto:me@alandoyle.com", text = "Contact Me" } },
+    { email = { href = "mailto:contact@alandoyle.link", text = "Contact Me" } },
 
     # { email = "mailto:hello@your_domain.com" },
     # { link = "https://link-to-some-website.com/" },
