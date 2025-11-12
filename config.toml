@@ -21,7 +21,7 @@ disableKinds = ["taxonomy", "term"]
     { blog = { href = "https://alandoyle.com/", text = "Blog" } },
     { github = "https://github.com/alandoyle" },
     { docker = { href = "https://hub.docker.com/u/alandoyle", text = "DockerHub" } },
-    { x = { href = "https://x.com/_AlanDoyle_", text = "Twitter" } },
+    { x = { href = "https://x.com/_AlanDoyle_", text = "X" } },
     { mastodon = "https://mastodon.social/@alandoyle" },
     { facebook = "https://facebook.com/alan.d.doyle" },
     { instagram = "https://instagram.com/alan.d.doyle" },
